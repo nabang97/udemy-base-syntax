@@ -1,0 +1,16 @@
+.UserOutput{
+    border: 1px solid pink;
+    max-width: 50vw;
+    margin: 16px auto;
+    border-radius: 6px;
+    background-color: lightpink;
+}
+.UserOutput>p:nth-child(odd){
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2em;
+
+}
+.UserOutput>p:nth-child(even){
+    font-family: Georgia, 'Times New Roman', Times, serif
+
+}
